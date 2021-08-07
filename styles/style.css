@@ -1,0 +1,69 @@
+body {
+    background-color: ghostwhite;
+    text-align: center;
+
+    width: 100vw  ;
+    height: 100vh;
+    margin: 0;
+}
+
+.apple {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.kanban {
+    color: blueviolet;
+    font-family: cursive;
+    font-size: 3em;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 3px;
+
+    width: 500px;
+    height: 70vh;
+    margin: 10px;
+}
+
+.container .must-do,
+.container .doing,
+.container .done,
+.container .cancel {
+    color: plum;
+    padding: 20px;
+    margin: 0;
+}
+
+.container .must-do {
+    background-color: goldenrod;
+}
+
+.container .doing {
+    background-color: blueviolet;
+}
+.container .done {
+    background-color: lightcoral;
+}
+.container .cancel {
+    background-color: lightgrey;
+}
+
+.fill-down {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.task {
+    background-color: lightslategrey;
+    border-radius: 3px;
+    box-shadow: black;
+
+    min-height: 5vh;
+    margin: 10px;
+    padding: 10px;
+
+    cursor: pointer;
+}
